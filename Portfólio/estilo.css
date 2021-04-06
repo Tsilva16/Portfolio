@@ -2,7 +2,7 @@
     border: 2px solid blue;
 } */ 
 
-h1, h2, h3, body {
+h1, h2, h3, body, p {
     margin: 0;
 } 
 
@@ -20,17 +20,18 @@ font-weight: bold;
 p{ 
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
-    color: rgba(125, 125, 125, 125);
     
-    width: 500px;
+    
+    /*width: 500px;
     height: 40px;
     padding: 10px 10px;
-    margin: 25px;
+    margin: 25px;*/
 
 }
 
 .t60{
-    background-color: rgba(125, 125, 125, 0.5);
+    color: rgba(125, 125, 125, 125);
+    /*background-color: rgba(125, 125, 125, 0.5);*/
 }
 
 header {
@@ -51,6 +52,42 @@ body {
 .foto{
     border: 4px solid #ffc700;
     border-radius: 50%;
-    margin-bottom: -180px;
+    margin-bottom: -140px;
     margin-right: 24px;
+    width: 380px;
+    height: 380px;
+}
+
+main {
+    padding: 40px 70px;
+}
+
+.coluna-menor{
+    margin-top: 60px;
+}
+
+.linha {
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 5px;
+}
+
+.experiencias .linha{
+    border-color: #4200ff;
+
+}
+
+.coluna-menor img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.conteudo {
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
 }
